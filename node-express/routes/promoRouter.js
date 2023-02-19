@@ -45,4 +45,4 @@ promoRouter.route('/:promoId')
         res.end('Deleting promotion: ' + req.params.promoId);
     });
 
-exports.router = promoRouter;
+module.exports = promoRouter;
